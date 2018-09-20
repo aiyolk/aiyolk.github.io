@@ -524,7 +524,6 @@ h1.prince-log a {
 
 .post-entry a {
     padding: 0 2px;
-    border-bottom: 1px solid #333;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
     -ms-transition: all 0.2s linear;
@@ -533,7 +532,6 @@ h1.prince-log a {
 }
 
 .post-entry a:hover {
-    background-color: #444;
     border: none;
     color: #fff;
     text-decoration: none;
@@ -1084,7 +1082,7 @@ h3.aside-title {
 .about-me-image {
     margin-top: 20px;
     padding-top: 62.5%;
-    background-image: url('/aboutme.jpg');
+    background-image: url('/IMG_1694.JPG');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -1252,4 +1250,16 @@ h3.aside-title {
 
 .copyright p a {
     color: #000;
+}
+
+.post-entry a:hover img {
+    border: 1px #6b6b6b solid;
+}
+
+.pic {
+    width: 200px;
+    height: 200px !important;
+    border: 1px #ccc solid;
+    padding: 1px;
+    margin: 10px;
 }
